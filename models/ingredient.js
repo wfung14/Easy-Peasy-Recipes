@@ -2,10 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const ingredientSchema = new Schema ({
-  name: {
-    type: String
-  },
-  measurements: {
+  nameAndMeasurment: {
     type: String
   }
 })
