@@ -1,0 +1,25 @@
+<%- include('../partials/header') %>
+
+<h2>Movie List</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Instructions</th>
+      <th>Ingredients</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% recipes.forEach(function(r) { %>
+      <tr>
+        <td><%= r.name %></td>
+        <td><%= r.description %></td>
+        <td><%= r.instructions %></td>
+        <td><%= r.ingredients %></td>
+      </tr>
+    <% }) %>
+  </tbody>
+</table>
+
+<%- include('../partials/header') %>
