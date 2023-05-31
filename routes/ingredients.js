@@ -5,9 +5,9 @@ const ingredientsCtrl = require('../controllers/ingredients');
 // This router is mounted to a "starts with" path of '/'
 
 // GET /ingredients/new (new functionality)
-router.get('/ingredients/new', ingredientsCtrl.new);
+router.get('/new', ingredientsCtrl.new);
 // POST /ingredients (create functionality)
-router.post('/ingredients', ingredientsCtrl.create);
+router.post('/', ingredientsCtrl.create);
 
 
 
