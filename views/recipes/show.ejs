@@ -18,4 +18,26 @@
   <input type="submit" value="Add Comment">
 </form>
 
+<% if (recipe.comments.length) { %>
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Comment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% recipe.comments.forEach(function(c) { %>
+        <tr>
+          <!-- .toLocaleDateString() provides a more friendly date format -->
+          <td><%= c.createdAt.toLocaleDateString() %></td>
+          <td><%= c.content %></td>
+        </tr>
+      <% }); %>
+    </tbody>
+  </table>
+<% } else { %>
+  <h5>No Comments Yet</h5>
+<% } %>
+
 <%- include('../partials/footer') %>
