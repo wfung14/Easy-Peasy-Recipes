@@ -6,8 +6,7 @@
     <tr>
       <th>Name</th>
       <th>Description</th>
-      <th>Instructions</th>
-      <th>Ingredients</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -15,8 +14,7 @@
       <tr>
         <td><%= r.name %></td>
         <td><%= r.description %></td>
-        <td><%= r.instructions %></td>
-        <td><%= r.ingredients %></td>
+        <td><a href="/recipes/<%= r._id %>">DETAILS</a></td>
       </tr>
     <% }) %>
   </tbody>

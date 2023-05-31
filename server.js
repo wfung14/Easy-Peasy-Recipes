@@ -5,10 +5,12 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
 require('dotenv').config()
+// 
 require('./config/database')
 
 const indexRouter = require('./routes/index');
 const recipesRouter = require('./routes/recipes');
+
 
 const app = express();
 
