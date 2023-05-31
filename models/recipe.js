@@ -11,10 +11,19 @@ const commentSchema = new Schema ({
 })
 
 const recipeSchema = new mongoose.Schema ({
-  name: {type: String},
-  description: {type: String},
-  ingredients: {type: String},
-  instructions: {type: String},
+  name: {
+    type: String
+  },
+  description: {
+    type: String
+  },
+  ingredients: [{
+    type: Schema.Types.ObjectId,
+    ref: 'Ingredient'
+  }],
+  instructions: {
+    type: String
+  },
   comments: [commentSchema]
 })
 

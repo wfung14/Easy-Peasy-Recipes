@@ -31,4 +31,4 @@ const Ingredient = require('./models/ingredient');
 // Top-level await (using await outside of an async function)
 // has been available since Node v14.8
 let recipes = await Recipe.find({});
-console.log(movies);
+console.log(recipes);
