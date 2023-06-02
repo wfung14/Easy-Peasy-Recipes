@@ -51,4 +51,22 @@ table thead th {
   border-bottom: 2.5px solid #067737;
 }
 
+#badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  width: 50%;
+  border: thick double;
+  border-radius: 1rem;
+  margin: 1rem 1rem;
+}
 
+.badge {
+  background-color: #067737;
+  padding: 1rem;
+  margin: 0.75rem;
+  border-radius: .25rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #BDCFC5
+}
