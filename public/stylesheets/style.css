@@ -82,3 +82,8 @@ width: 10rem;
   grid-gap: 2rem;
   font-size: 20px;
 }
+
+h1 {
+  font-size: 65px;
+  padding-top: 10rem;
+}
