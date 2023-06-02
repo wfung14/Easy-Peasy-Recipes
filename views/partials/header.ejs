@@ -12,9 +12,9 @@
 
     <a href="/recipes" <%- title === 'All Recipes' ? 'class="active"' : '' %>>All Recipes</a>
     <% if (user) { %>
+      <a href="/recipes/new" <%- title === 'Add Recipe' ? 'class="active"' : '' %>>Add Recipe</a>
       <a href="/ingredients/new"	<%- title === 'Add Ingredient' ? 'class="active"' : '' %>>
       Add Ingredient</a>
-      <a href="/recipes/new" <%- title === 'Add Recipe' ? 'class="active"' : '' %>>New Recipe</a>
       <a href="/logout">Log out</a>
     <% } else { %>
       <a href="/auth/google" class="login">Log In</a>

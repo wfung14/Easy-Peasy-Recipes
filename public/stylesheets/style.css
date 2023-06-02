@@ -70,3 +70,8 @@ table thead th {
   text-align: center;
   color: #BDCFC5
 }
+
+form {
+font-size: 20px;
+width: 10rem;
+}
