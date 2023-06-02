@@ -10,9 +10,7 @@ const index = async (req,res) => {
 
 const show = async (req, res) => {
   const recipe = await Recipe.findById(req.params.id).populate('ingredients');
-  // console.log(recipe)
   const ingredients = await Ingredient.find({ _id: { $nin: recipe.ingredients } }).sort('name');
-  // console.log(ingredients)
   res.render('recipes/show', { title: 'Recipe Detail', recipe, ingredients });
 }
 

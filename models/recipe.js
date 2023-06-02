@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-// optional shortcut to the mongoose.Schema class
 const Schema = mongoose.Schema;
 
 const commentSchema = new Schema ({
@@ -34,5 +33,4 @@ const recipeSchema = new mongoose.Schema ({
   comments: [commentSchema]
 })
 
-// Compile the schema into a model and export it
 module.exports = mongoose.model('Recipe', recipeSchema);

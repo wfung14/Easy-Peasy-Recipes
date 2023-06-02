@@ -3,8 +3,6 @@ const router = express.Router();
 const ingredientsCtrl = require('../controllers/ingredients');
 const ensureLoggedIn = require('../config/ensureLoggedIn')
 
-// This router is mounted to a "starts with" path of '/'
-
 // GET /ingredients/new (new functionality)
 router.get('/ingredients/new', ensureLoggedIn, ingredientsCtrl.new);
 // POST /ingredients (create functionality)

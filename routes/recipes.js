@@ -1,8 +1,6 @@
 const express = require('express');
 const router = express.Router();
-// create controller module
 const recipesCtrl = require('../controllers/recipes')
-// Require the auth middleware
 const ensureLoggedIn = require('../config/ensureLoggedIn');
 
 // GET route for /recipes

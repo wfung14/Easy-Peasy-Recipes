@@ -46,7 +46,6 @@
     <tbody>
       <% recipe.comments.forEach(function(c) { %>
         <tr>
-          <!-- .toLocaleDateString() provides a more friendly date format -->
           <td class="review-user"><img alt="avatar" src="<%= c.userAvatar %>" referrerpolicy="no-referrer" ><%= c.userName %></td>
           <td><%= c.createdAt.toLocaleDateString() %></td>
           <td><%= c.content %></td>
