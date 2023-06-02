@@ -75,3 +75,10 @@ form {
 font-size: 20px;
 width: 10rem;
 }
+
+#show-page {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2rem;
+  font-size: 20px;
+}
