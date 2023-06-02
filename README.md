@@ -1,4 +1,4 @@
-# Easy-Peasy-Recipes
+# Easy Peasy Recipes
 ## Date: 05/25/2023
 ### By: Wilson Fung
 
@@ -34,10 +34,10 @@
 
 ![Landing Page](pictures/LandingPage.png)
 ![Recipe List](pictures/RecipesPage.png)
-![Recipe Details](pictures/RecipesDetails.png)
+![Recipe Details](pictures/RecipeDetails.png)
 ![Add Recipe](pictures/AddRecipe.png)
 ![Add Ingredients](pictures/AddIngredients.png)
 
-### **-Credits_**
+### **_Credits_**
 
 ##### Markdown Cheatsheet: [Markdown Guide] (https://www.markdownguide.org/cheat-sheet/)
