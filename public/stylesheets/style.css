@@ -1,9 +1,23 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #83af96;
 }
 
-a {
-  color: #00B7FF;
+body {
+  margin: 0;
+  height: 75vh;
+  display: grid;
+  grid-template-rows: 75px;
+  grid-template-areas: 
+    "nav"
+    "main"
+}
+
+body > nav {
+  background-color: #52946F;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
