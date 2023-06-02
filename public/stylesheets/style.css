@@ -21,3 +21,9 @@ body > nav {
   align-items: center;
 }
 
+nav > a {
+  padding: 15px;
+  border-radius: 15px;
+  color: #067737;
+}
+
