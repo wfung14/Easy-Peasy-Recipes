@@ -9,18 +9,35 @@
 
 ***
 
-### **_Getting Started_**
-[Trello](https://trello.com/b/m3nwpYhu/easy-peasy-recipes)
+### **_Application_**
+
+#### You can use the deployed app [here]()
+
+#### You can track the progress of future updates here: [Trello](https://trello.com/b/m3nwpYhu/easy-peasy-recipes).
 
 ***
 
 ### **_Technologies Used_**
 
+- CSS
+- Javascript
+- EJS
+- Node.js
+- Express
+- MongoDB
+- Mongoose
+- OAuth
 
 ***
 
 ### **_Screenshots_**
 
-![Log In](pictures/LogIn.png)
-![Recipe List](pictures/RecipeList.png)
-![Recipe](pictures/Recipe1.png)
+![Landing Page](pictures/LandingPage.png)
+![Recipe List](pictures/RecipesPage.png)
+![Recipe Details](pictures/RecipesDetails.png)
+![Add Recipe](pictures/AddRecipe.png)
+![Add Ingredients](pictures/AddIngredients.png)
+
+### **-Credits_**
+
+##### Markdown Cheatsheet: [Markdown Guide] (https://www.markdownguide.org/cheat-sheet/)
